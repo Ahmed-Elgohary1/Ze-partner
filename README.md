@@ -59,3 +59,11 @@ Another more efficient way is to use space-partitioning methods, such as [ Kd-tr
 average complexity is O(log N) in the case of randomly distributed points, worst case complexity is O(kN^(1-1/k)). 
 3D-tree implementation is a good algorithm as far as the time complexity is concerned, although for bigger accuracy at calculating the surface distance of points in the Earth “sphere” [Great-circle_distance](https://en.wikipedia.org/wiki/Great-circle_distance)
 algorithms can also be used.
+
+
+Springboot is chosen as the application framework because it provides a lightweight implementation of the strong Spring ecosystem with many modules/projects that are easy to “wire” together.
+In this project many such modules have been utilised, like
+a) “Spring Web services”, a very efficient product for contract-first Restful service development.
+b)“Spring Test” , a support module for unit testing(with Junit5) and integration testing.
+c) “Spring JPA” , providing specifications that facilitates object-relational mapping to manage relational data.
+
